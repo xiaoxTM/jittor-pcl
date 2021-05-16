@@ -4,7 +4,7 @@ import jittor as jt
 from jittor import nn
 from jittor.contrib import concat
 
-from lib import fops, mops
+from ops import fops, mops
 from models.rec.rec_model import RecModule
 
 def get_graph_feature(x, knn=None, k=None, idx=None):

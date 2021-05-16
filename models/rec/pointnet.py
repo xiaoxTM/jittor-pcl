@@ -3,7 +3,7 @@ from jittor import nn
 from jittor import init
 from jittor.contrib import concat
 import numpy as np
-from lib import fops, mops
+from ops import fops, mops
 from models.rec.rec_model import RecModule
 
 

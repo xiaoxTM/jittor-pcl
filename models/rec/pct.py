@@ -3,8 +3,8 @@ from jittor import nn
 from jittor import init
 from jittor.contrib import concat
 import numpy as np
-from lib import fops
-from lib.layers import Permute
+from ops import fops
+from ops.layers import Permute
 from models.rec.rec_model import RecModule
 
 
